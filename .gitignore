@@ -1,0 +1,22 @@
+# Local overrides — keep your real panel manifest out of the repo if you fork it
+Panels.local.ps1
+*.local.ps1
+
+# Board runtime output, if anyone ever runs it from a checkout
+Logs/
+*.log
+*.heartbeat
+*.state
+*.index
+hold.request
+hold.result
+rotation.status
+board.starting
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
